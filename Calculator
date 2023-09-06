@@ -24,7 +24,9 @@ while (True):
    print("Select the valid operator")
   
   d=input("Do you want to continue : (y/n) ")  
-  if d=="n":
+  if d=="y":
+   continue 
+  else:
    break
  else:
      print("Select the valid operator ")
